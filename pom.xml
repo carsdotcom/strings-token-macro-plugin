@@ -11,12 +11,12 @@
     <relativePath/>
   </parent>
   <groupId>com.cars.plugin</groupId>
-  <artifactId>strings-token</artifactId>
+  <artifactId>strings-token-macro</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <name>strings-token-macro</name>
-  <description>strings token macro</description>
+  <description>This plugin contains macros performing basic StringUtils operations on string values</description>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/strings-token-macro</url>
   <licenses>
     <license>
