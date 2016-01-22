@@ -7,7 +7,7 @@
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
     <!-- Baseline Jenkins version you use to build and test the plugin. Users must have this version or newer to run. -->
-    <version>1.580.1</version>
+    <version>1.609.1</version>
     <relativePath/>
   </parent>
   <groupId>com.cars.plugin</groupId>
@@ -58,6 +58,7 @@
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>token-macro</artifactId>
       <version>1.11</version>
+      <optional>true</optional>
       </dependency>
   </dependencies>
   

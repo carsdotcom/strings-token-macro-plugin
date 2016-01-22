@@ -1,4 +1,4 @@
-package jenkins.plugins.token;
+package hudson.plugins.macro;
 
 import java.util.logging.Logger;
 

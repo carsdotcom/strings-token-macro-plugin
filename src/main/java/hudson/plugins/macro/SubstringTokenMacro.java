@@ -1,4 +1,4 @@
-package jenkins.plugins.token;
+package hudson.plugins.macro;
 
 import java.io.IOException;
 import java.util.Map;
@@ -11,13 +11,13 @@ import hudson.Extension;
 import hudson.model.AbstractBuild;
 import hudson.model.TaskListener;
 
-@Extension
+@Extension(optional = true)
 public class SubstringTokenMacro extends DataBoundTokenMacro {
 	
 	@Parameter(required = true)
 	public String value = "";
 	
-	@Parameter(required = false)
+	@Parameter
 	public int start = 0;
 	
 	@Parameter(required = true)

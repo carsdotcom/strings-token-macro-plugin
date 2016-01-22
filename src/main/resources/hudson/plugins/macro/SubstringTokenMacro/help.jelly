@@ -1,0 +1,27 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core">
+  <dt>$${SUBSTRING}</dt>
+  <dd>
+    Will perform a substring on the given string
+  </dd>
+
+  <h3>Parameters</h3>
+  <dl>
+    <dt>value, string</dt>
+    <dd>
+        Specify the value of the substring, this can be an environment variable, must start with env:
+    </dd>
+  </dl>
+  <dl>
+    <dt>start, int (optional, default is 0) </dt>
+    <dd>
+        Specify the starting index for the substring
+    </dd>
+  </dl>
+  <dl>
+    <dt>end, int</dt>
+    <dd>
+        Specify the ending index for the substring
+    </dd>
+  </dl>
+</j:jelly>
