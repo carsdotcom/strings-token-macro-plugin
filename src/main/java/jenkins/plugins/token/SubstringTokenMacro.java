@@ -1,4 +1,4 @@
-package com.cars.plugin.token.strings;
+package jenkins.plugins.token;
 
 import java.io.IOException;
 import java.util.Map;
